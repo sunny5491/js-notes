@@ -3,3 +3,10 @@ min=10,max=20, console.log(Math.floor(Math.random()*(max-min+1)+min)
 2: for getting time in seconds: console.log(Math.floor(Date.now()/1000))
 3: for flattening  the array ex: arr=[1,2,[3,4,[5,6,7],[[[[7,8]]]]
 we can do y=x.flat(Infinity)
+4: x=Array.from("Sunny")
+console.log(x)===> ['S','u','n','n','y']
+but if x=Array.from({name="Sunny"})
+console.log(x)===> [] empty array
+5: for in object if we define any key in double quotes we have to use to brscket notation to retrieve it not dot notation for ex:
+d={"e":1} --- console.log(d["e"]) not console.log(d."e") or console.log(d.e)
+also for defining symbol as a key: ex: sym=Symbol("aye")--- d={[sym]="aye"} sybol are defined as keys by using them in brackets.console.log(d[sym])
