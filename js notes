@@ -24,7 +24,9 @@ also for defining symbol as a key: ex: sym=Symbol("aye")--- d={[sym]="aye"} sybo
 Runs Immediately – No need to call the function explicitly.
 
 Helps with Module Patterns – Useful for creating private variables.
+
 11: while using IIFE: (function(){console.log(5)})(); (()=>{console.log(5)})() the second function will only execute if we have written semicolon after 
 first function.
 12: read about How does javascript execute code + call stack : one such video is : https://www.youtube.com/watch?v=ByhtOgF6uYM&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=25
-13: 
+13: falsy values: 0,-0,bigInt 0n,"", null,undefined,NaN
+14: truthy values: "0",'false'," ",{},(),function(){}
