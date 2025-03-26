@@ -10,3 +10,21 @@ console.log(x)===> [] empty array
 5: for in object if we define any key in double quotes we have to use to brscket notation to retrieve it not dot notation for ex:
 d={"e":1} --- console.log(d["e"]) not console.log(d."e") or console.log(d.e)
 also for defining symbol as a key: ex: sym=Symbol("aye")--- d={[sym]="aye"} sybol are defined as keys by using them in brackets.console.log(d[sym])
+6: browser has global object: Window object
+7: function(){ let user="sunny" console.log(this.user)  }=====> undefined; it only works in objects.
+8:In arrow function we use console.log(this) it will give {} but in pure function it will give an ojject(try urself).
+9:const a=(num1,num2)=>{return num1+num2} this is explicit function ;  const a=(num1,num2)=>(num1+num2) this is implicit function.
+10:(function() {
+    console.log("This runs immediately!");
+})();
+(() => {
+    console.log("Arrow function IIFE");
+})();   this is IIFE. we use IIFE because :Avoids Global Scope Pollution – Variables inside an IIFE are not accessible outside.
+
+Runs Immediately – No need to call the function explicitly.
+
+Helps with Module Patterns – Useful for creating private variables.
+11: while using IIFE: (function(){console.log(5)})(); (()=>{console.log(5)})() the second function will only execute if we have written semicolon after 
+first function.
+12: read about How does javascript execute code + call stack : one such video is : https://www.youtube.com/watch?v=ByhtOgF6uYM&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=25
+13: 
