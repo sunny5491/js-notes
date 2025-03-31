@@ -30,3 +30,5 @@ first function.
 12: read about How does javascript execute code + call stack : one such video is : https://www.youtube.com/watch?v=ByhtOgF6uYM&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=25
 13: falsy values: 0,-0,bigInt 0n,"", null,undefined,NaN
 14: truthy values: "0",'false'," ",{},(),function(){}
+15 read about DOM or refer: https://www.youtube.com/watch?v=VQlY-X_eeTE&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=34
+16:
